@@ -1,0 +1,117 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false,
+		"coverView": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.7.7",
+	"appid": "wxa5b60e3c40201cde",
+	"projectname": "%E9%AD%94%E5%85%BD%E9%87%91%E5%9B%A2%E5%8A%A9%E6%89%8B",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 9,
+			"list": [
+				{
+					"id": -1,
+					"name": "创建团队",
+					"pathName": "pages/new/new",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "团队主页 ",
+					"pathName": "pages/main/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "选择职业",
+					"pathName": "pages/role/role",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 3,
+					"name": "加入团队",
+					"pathName": "pages/add/add",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "团队成员",
+					"pathName": "pages/member/member",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "拍卖",
+					"pathName": "pages/auction/auction",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "个人中心",
+					"pathName": "pages/mine/mine",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "入团确认",
+					"pathName": "pages/queren/queren",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "奖励",
+					"pathName": "pages/award/award",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "分金",
+					"pathName": "pages/cent/cent",
+					"scene": null
+				}
+			]
+		}
+	}
+}

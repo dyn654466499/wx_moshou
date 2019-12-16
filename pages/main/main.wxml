@@ -1,0 +1,55 @@
+<view class="top">
+  <view class="detail">
+   <view class="money">
+     <view class="number">20168</view>
+     <text class="na">总收入</text>
+   </view>
+  </view>
+  <view class="detail">
+    <view class="money">
+     <view class="number">504.2</view>
+     <text class="na">人均</text>
+  </view>
+  </view>
+  <view class="detail">
+    <view class="money">
+     <view class="number">3659</view>
+     <text class="na">团队码</text>
+  </view>
+  </view>
+</view>
+
+<view class="container">
+ <view class="box" bindtap="gomember">
+   <image class="icon" src="/image/member.svg"></image>
+   <text class="title">成员</text>
+ </view>
+ <view class="box" bindtap="goaward">
+   <image class="icon" src="/image/award.svg"></image>
+   <text class="title">奖励</text>
+ </view>
+ <view class="box" bindtap="gocent">
+   <image class="icon" src="/image/cent.svg"></image>
+   <text class="title">分金</text>
+ </view>
+ <view class="box" bindtap="goauction">
+   <image class="icon" src="/image/auction.svg"></image>
+   <text class="title">拍卖</text>
+ </view>
+</view>
+
+<view class="auction">
+  <image class="img" src="/image/role/mage.jpg"></image>
+  <view class="prise">
+    <text class="title">当前价：</text>
+    <text class="num">300</text>
+  </view>
+  <view class="time">
+  <text class="title">倒计时：</text>
+    <text class="num">1:35:21</text>
+</view>
+  <view class="name">当前最高价ID</view>
+  <view class="btn">加10</view>
+</view>
+
+

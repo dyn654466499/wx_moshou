@@ -1,0 +1,19 @@
+<!--pages/award/award.wxml-->
+<view class="container">
+ <text class="title">奖励金总额：500</text>
+ <text class="coun">剩余：200</text>
+</view>
+
+<view class="con">
+ <text class="title">团长角色名</text>
+ <text class="coun">300</text>
+</view>
+
+<view class="con">
+ <text class="title">奖励人角色名</text>
+ <text class="tpy">输入金额</text>
+</view>
+
+<view class="add">+奖励人员</view>
+
+<view class="btn">确认发布</view>

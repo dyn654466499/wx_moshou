@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/new/new",
+    "pages/add/add",
+    "pages/main/main",
+    "pages/role/role",
+    "pages/member/member",
+    "pages/award/award",
+    "pages/cent/cent",
+    "pages/auction/auction",
+    "pages/mine/mine",
+    "pages/queren/queren"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#313b3d",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "魔兽金团助手",
+    "backgroundTextStyle": "light"
+  },
+  "sitemapLocation": "sitemap.json"
+}

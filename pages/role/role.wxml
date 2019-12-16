@@ -1,0 +1,21 @@
+<!--pages/role/role.wxml-->
+<view class="tittle">角色名</view>
+  <view class="input_box">
+    <input class="input" type="text" placeholder="输入游戏角色名" maxlength="30" focus="{{isFocus}}">
+    
+    </input>
+    
+  </view>
+
+
+
+  <radio-group bindchange="radioc">
+<view class='label'>
+  <label class="ur-radio {{item.checked==true?'active':''}}" wx:for="{{roles}}" wx:key="key">
+    <radio value="{{item.value}}" checked="{{item.checked}}" />
+    <image class='imga' src="{{item.imga}}"></image>
+  </label>
+  </view>
+</radio-group>
+
+<view class="btn" bindtap="gomain">下一步</view>

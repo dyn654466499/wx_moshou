@@ -1,0 +1,11 @@
+<!--pages/mine/mine.wxml-->
+<view class="container">
+ <image class="icon" src="/image/role/mage.jpg"></image>
+ <text class="nickname">伊利丹</text>
+ <text class="role">职业：法师</text>
+ <image class="right" src="/image/right.svg"></image>
+</view>
+
+<view class="bar">
+ <text class="title">钱包</text>
+</view>

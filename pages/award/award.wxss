@@ -1,0 +1,46 @@
+/* pages/award/award.wxss */
+.container{
+  background: #fef9e6;
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  margin: 20rpx 0;
+}
+.title{
+  margin-left: 32rpx;
+  color: #000;
+}
+.coun{
+  position: absolute;
+  right: 32rpx;
+  color: #f8b700;
+}
+.tpy{
+  position: absolute;
+  right: 32rpx;
+  color: #888;
+}
+.con{
+  background: #fef9e6;
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  border-bottom: 1rpx solid #f2ebd1;
+}
+.add{
+  background: #fef9e6;
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  color: #666;
+}
+.btn{
+  height: 100rpx;
+  width: 100%;
+  background: #fef9e6;
+  bottom: 0;
+  position: fixed;
+  text-align: center;
+  line-height: 100rpx;
+}

@@ -1,0 +1,78 @@
+/* pages/role/role.wxss */
+page{
+  background: #fef9e6;
+}
+.tittle{
+  z-index: 2;
+  position: relative;
+  color: #313b3d;
+  width: 100%;
+  height: 64rpx;
+  line-height: 64rpx;
+  margin: 24rpx 44rpx 0rpx 44rpx;
+}
+.input_box{
+  background: rgba(152,148,139,.3);
+  height: 80rpx;
+  width: 678rpx;
+  border-radius: 8rpx;
+  z-index: 999;
+  margin: 32rpx;
+  position: relative;
+}
+.input{
+  height: 80rpx;
+  line-height: 80rpx;
+  margin-left: 16rpx;
+  color: #8f805f;
+}
+.ur-radio radio, .ur-radio checkbox {
+  display: none;
+}
+.label{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+}
+.ur-radio{
+  border: 8rpx solid #fef9e6;
+  width: 64rpx;
+  height: 64rpx;
+  white-space:nowrap;
+  z-index: 2;
+  margin: 8rpx 22rpx;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ur-radio.active{
+  border: 8rpx solid #fce98d;
+  box-shadow: 0 0 2px rgba(0,0,0,.9), 0 0 2px rgba(0,0,0,.9), 0 0 2px rgba(0,0,0,.8);
+  width: 64rpx;
+  height: 64rpx;
+  white-space:nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imga{
+  width: 64rpx;
+  height: 64rpx;
+}
+.ur-radio.active .imga{
+  width: 64rpx;
+  height: 64rpx;
+}
+.btn{
+  height: 64rpx;
+  width: 240rpx;
+  background: #fce98d;
+  color: #313b3d;
+  border-radius: 8rpx;
+  position: absolute;
+  margin: 36rpx 0 0 460rpx;
+  text-align: center;
+  line-height: 64rpx;
+}

@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="title">怀旧金团助手</view>
+<view class="bg">
+ <image src="/image/background.png"></image>
+</view>
+
+<view class="dance">
+ <image src="/image/dance.gif"></image>
+</view>
+
+
+<view class="tab">
+  <view class="bar" bindtap="gonew">创建团队
+  </view>
+  <view class="bar" bindtap="goadd">加入团队
+  </view>
+  <view class="bar" bindtap="gomine">个人中心
+  </view>
+</view>

@@ -1,0 +1,33 @@
+<!--pages/new/new.wxml-->
+  <view class="tittle">团队名称</view>
+  <view class="input_box">
+    <input class="input" type="text" placeholder="请输入团队名称" maxlength="30" name='title' focus="{{isFocus}}">
+    </input>
+  </view>
+  
+  
+  <view class="tittle">团队奖励（用于发放补贴）</view>
+  <radio-group class="group">
+      <view class="attr_value">
+           <radio color=''></radio>
+           <label class='radio_label'>0%</label>
+      </view>
+      <view class="attr_value">
+           <radio color=''></radio>
+           <label class='radio_label'>5%</label>
+      </view>
+      <view class="attr_value">
+           <radio color=''></radio>
+           <label class='radio_label'>10%</label>
+      </view>
+      <view class="attr_value">
+           <radio color=''></radio>
+           <label class='radio_label'>15%</label>
+      </view>
+      <view class="attr_value">
+           <radio color=''></radio>
+           <label class='radio_label'>20%</label>
+      </view>
+</radio-group>
+
+<view class="btn" bindtap="gorole">下一步</view>

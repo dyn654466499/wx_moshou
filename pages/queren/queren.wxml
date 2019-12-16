@@ -1,0 +1,18 @@
+<!--pages/queren/queren.wxml-->
+<view class="role">
+      <view class="con">
+      <image class="ro" src="/image/role/mage.jpg"></image>
+      <text class="mage">玩家角色名</text>
+      <view class="btn">确认</view>
+      </view>
+      <view class="con">
+      <image class="ro" src="/image/role/warlock.jpg"></image>
+      <text class="mage">玩家角色名</text>
+      <view class="btn">确认</view>
+      </view>
+      <view class="con">
+      <image class="ro" src="/image/role/warrior.jpg"></image>
+      <text class="mage">玩家角色名</text>
+      <text class="queren">已确认</text>
+      </view>
+    </view>

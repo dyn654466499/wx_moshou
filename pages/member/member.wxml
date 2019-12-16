@@ -1,0 +1,57 @@
+<view class="container">
+    
+    <view class="role">
+      <view class="contai" bindtap="goqueren">
+        <text class="worrior">入团审批</text>
+        <view class="po">6</view>
+      </view>
+      <view class="con">
+      <image class="ro" src="/image/role/mage.jpg"></image>
+      <text class="mage">玩家角色名</text>
+      </view>
+      <view class="con">
+      <image class="ro" src="/image/role/warlock.jpg"></image>
+      <text class="mage">玩家角色名</text>
+      </view>
+      <view class="con">
+      <image class="ro" src="/image/role/warrior.jpg"></image>
+      <text class="mage">玩家角色名</text>
+      </view>
+      <view class="con">
+      <image class="ro" src="/image/role/rogue.jpg"></image>
+      <text class="mage">玩家角色名</text>
+      </view>
+      <view class="con">
+      <image class="ro" src="/image/role/hunter.jpg"></image>
+      <text class="mage">玩家角色名</text>
+      </view>
+      <view class="con">
+      <image class="ro" src="/image/role/priest.jpg"></image>
+      <text class="mage">玩家角色名</text>
+      </view>
+      <view class="con">
+      <image class="ro" src="/image/role/druid.jpg"></image>
+      <text class="mage">玩家角色名</text>
+      </view>
+      <view class="con">
+      <image class="ro" src="/image/role/paladin.jpg"></image>
+      <text class="mage">玩家角色名</text>
+      </view>
+      <view class="con">
+      <image class="ro" src="/image/role/shaman.jpg"></image>
+      <text class="mage">玩家角色名</text>
+      </view>
+      <view class="con">
+      <image class="ro" src="/image/role/death-knight.jpg"></image>
+      <text class="mage">玩家角色名</text>
+      </view>
+      <view class="con">
+      <image class="ro" src="/image/role/demon-hunter.jpg"></image>
+      <text class="mage">玩家角色名</text>
+      </view>
+      <view class="con">
+      <image class="ro" src="/image/role/monk.jpg"></image>
+      <text class="mage">玩家角色名</text>
+      </view>
+    </view>
+</view>

@@ -1,0 +1,42 @@
+/* pages/queren/queren.wxss */
+.role{
+  margin-top: 24rpx;
+  width: 100%;
+}
+.con{
+  height: 88rpx;
+  width: 100%;
+  background: #fef9e6;
+  margin-top: 12rpx;
+  padding: 0 24rpx;
+  display: flex;
+  align-items: center;
+}
+.worrior{
+  color: #313b3d;
+}
+.ro{
+  height: 44rpx;
+  width: 44rpx;
+}
+.mage{
+  color: #313b3d;
+  margin-left: 16rpx;
+  line-height: 88rpx;
+}
+.queren{
+  position: absolute;
+  right: 32rpx;
+  color: #aaa;
+}
+.btn{
+  height: 48rpx;
+  width: 116rpx;
+  line-height: 48rpx;
+  text-align: center;
+  border-radius: 8rpx;
+  position: absolute;
+  right: 32rpx;
+  background: #fce98d;
+  color: #313b3d;
+}

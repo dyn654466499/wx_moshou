@@ -1,0 +1,51 @@
+<!--pages/auction/auction.wxml-->
+<view class="container">
+  <view class="aa">
+    <text class="title">起拍价</text>
+     <radio-group class="group">
+      <view class="attr_value">
+           <radio color=''></radio>
+           <label class='radio_label'>1</label>
+      </view>
+      <view class="attr_value">
+           <radio color=''></radio>
+           <label class='radio_label'>10</label>
+      </view>
+      <view class="attr_value">
+           <radio color=''></radio>
+           <label class='radio_label'>50</label>
+      </view>
+      <view class="attr_value">
+           <radio color=''></radio>
+           <label class='radio_label'>100</label>
+      </view>
+</radio-group>
+  </view>
+  <view class="aa">
+   <text class="title">加价额</text>
+   <radio-group class="group">
+      <view class="attr_value">
+           <radio color=''></radio>
+           <label class='radio_label'>1</label>
+      </view>
+      <view class="attr_value">
+           <radio color=''></radio>
+           <label class='radio_label'>10</label>
+      </view>
+      <view class="attr_value">
+           <radio color=''></radio>
+           <label class='radio_label'>50</label>
+      </view>
+      <view class="attr_value">
+           <radio color=''></radio>
+           <label class='radio_label'>100</label>
+      </view>
+</radio-group>
+  </view>
+  <view class="aa">
+   <text class="title">倒计时</text>
+   <text class="detail">1小时30分钟</text>
+  </view>
+  <view class="bb">+装备图片</view>
+</view>
+<view class="btn">确认发布</view>
